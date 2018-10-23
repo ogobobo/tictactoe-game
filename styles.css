@@ -1,0 +1,41 @@
+body {
+    width: 50% !important;
+    margin: auto !important;
+    padding: 10px;
+    font-family: 'Shadows Into Light', cursive;
+    background-color: black;
+    text-align: center;
+}
+
+.wrapper {
+    display: grid;
+    grid-template-columns: 70px 70px 70px;
+    color: #444;
+    margin: 20%;
+    /* padding: auto; */
+}
+
+.box, .a {
+    background-color: grey;
+    color: black;
+    border-radius: 7px;
+    padding: 20px;
+    font-size: 150%;
+    text-align: center;
+    border: 2px solid black;
+}
+  
+.box:hover {
+    background-color: #ECF0F1;
+}
+
+h1, p, .player {
+  color: white;
+  font-weight: bold;
+}
+
+.display {
+    grid-column: 1 / span 3;
+    text-align: center;
+    border: 3px solid black;
+}
